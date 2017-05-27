@@ -5,6 +5,8 @@ A docker image for [Mozilla Firefox](https://www.mozilla.org/en-US/) based on Ce
 
 ## Quick Start ##
 
+Use the image directly from DockerHub
+
 ```
 docker run -ti --rm \
        -e DISPLAY=$DISPLAY \
@@ -12,9 +14,15 @@ docker run -ti --rm \
        gabrielzuqueto/docker-firefox:version1
 ```
 
+Or ...
+
 ## Build Image ##
 
 ```
+git clone https://github.com/gabrielzuqueto/docker-firefox.git
+
+cd docker-firefox
+
 docker build -t docker-firefox .
 ```
 
