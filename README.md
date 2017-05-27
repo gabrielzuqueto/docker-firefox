@@ -3,6 +3,15 @@ Docker Firefox
 
 A docker image for [Mozilla Firefox](https://www.mozilla.org/en-US/) based on CentOS 7.
 
+## Quick Start ##
+
+```
+docker run -ti --rm \
+       -e DISPLAY=$DISPLAY \
+       -v /tmp/.X11-unix:/tmp/.X11-unix \
+       gabrielzuqueto/docker-firefox:version1
+```
+
 ## Build Image ##
 
 ```
