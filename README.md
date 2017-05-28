@@ -5,7 +5,7 @@ A docker image for [Mozilla Firefox](https://www.mozilla.org/en-US/) based on Ce
 
 ## Quick Start ##
 
-Use the image directly from DockerHub
+Use the image directly from Docker Hub
 
 ```
 docker run -ti --rm \
